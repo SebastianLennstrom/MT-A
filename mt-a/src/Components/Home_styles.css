@@ -16,7 +16,21 @@
     align-items: center;
 
 }
+.home_about h1{
+    animation: 1s ease-out 0s 1 textanimation;
+    font-size: 3em;
+}
 
-
+@keyframes textanimation{
+    0%{
+        transform: translateY(3em);
+        opacity: 0%
+        
+    }
+    100% {
+        transform: translateY(0em);
+        opacity: 100%
+    }
+}
 
 
