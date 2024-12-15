@@ -1,18 +1,22 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AppBar from './Components/Appbar'
 import Home from './Components/Home'
 import "./App.css"
+import { Routes, Route } from 'react-router-dom';
 
 
 
 function App() {
     return (
+
         <div className="page_body">
             <AppBar></AppBar>
             <main className="page_body--content">
-
-               <Home></Home>   
+                <Routes>
+                    <Route path="/MT-A/" element={<Home />} />
+                    {/*<Route path="/about" element={<About />} />*/}
+                    {/*<Route path="/contact" element={<Contact />} />*/}
+                </Routes>
             </main>
         </div>
 
