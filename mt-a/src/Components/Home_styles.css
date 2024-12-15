@@ -1,4 +1,11 @@
-.home{
-    background-image: url("../assets/Logga.png")
-
+.home {
+    justify-content: center;
+    align-content: center;
+    background-image: url("../assets/Logga.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 20%;
+    width: 100vw;
+    height: 100vh;
+    
 }
