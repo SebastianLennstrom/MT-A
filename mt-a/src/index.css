@@ -1,0 +1,18 @@
+:root{
+    color-scheme: dark;
+    background-color: hsl(0, 6%, 10%);
+    margin:0;
+    padding:.2em;
+    text-decoration: none;
+}
+
+a{
+    color: whitesmoke;
+   
+}
+
+
+
+p:has(:hover){
+    font-size: 110%;
+}
