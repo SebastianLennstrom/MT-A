@@ -1,0 +1,26 @@
+.header{
+    display: inline-flex;
+    width: 100vw;
+    height: 8vh;
+    justify-content: center;
+
+}
+.list{
+    display:flex;
+    flex-direction: row;
+    gap: 4rem;
+    list-style:none;
+    font-size: 1.5em;
+}
+
+li{
+    transition: transform 0.2s ease; 
+    cursor: pointer;
+}
+li:hover {
+    transform: scale(1.1); 
+}
+
+li:active {
+    transform: scale(1); 
+}
